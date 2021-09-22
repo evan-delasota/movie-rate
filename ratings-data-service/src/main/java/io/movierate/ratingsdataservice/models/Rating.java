@@ -1,6 +1,7 @@
 package io.movierate.ratingsdataservice.models;
 
 public class Rating {
+
     private String movieId;
     private int rating;
 
@@ -8,8 +9,6 @@ public class Rating {
         this.movieId = movieId;
         this.rating = rating;
     }
-
-    public Rating() {}
 
     public String getMovieId() {
         return movieId;

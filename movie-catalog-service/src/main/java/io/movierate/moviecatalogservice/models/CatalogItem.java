@@ -10,6 +10,7 @@ public class CatalogItem {
         this.desc = desc;
         this.rating = rating;
     }
+
     public String getName() {
         return name;
     }
@@ -33,7 +34,4 @@ public class CatalogItem {
     public void setRating(int rating) {
         this.rating = rating;
     }
-
-
-
 }
